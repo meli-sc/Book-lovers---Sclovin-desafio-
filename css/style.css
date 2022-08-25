@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-meli{
+    background-color: rgb(121, 247, 247);
+}
+
+.fondo{
+    background-image: url(../img/8fefe76a14c7163afd417d57e3624271.jpg);
+    
+}
+
+
+.img-carousel{
+    width: 802px;
+    height: 525px;
+    margin-left: 280px;
+}
+
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color:rgb(121, 247, 247) ;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    
+}
+
+.anchoFooter {
+    margin-top: 10px;
+    
+}
+.redes{
+    display: inline-block;
+}
+
+/*  */
+.bi-facebook {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(1, 1, 1);
+  }
+  
+  .bi-facebook:hover {
+    color: #3b5998;
+  }
+  
+  .bi-whatsapp {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(1, 1, 1);
+  }
+  
+  .bi-whatsapp:hover {
+    color: #25D366;
+  }
+  
+  .bi-instagram {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(1, 1, 1);
+  }
+  
+  .bi-instagram:hover {
+    color: #8a3ab9;
+  }
+
+
+
+  
+
+  /* media queries */
+@media (max-width: 576px) { 
+    .mt-mobile{
+        margin-top: 2rem;
+    }
+}
